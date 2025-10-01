@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Travel Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>My Travel Gallery</h1>
+    <p>
+      <strong>Explore the world</strong> through my 
+      <em>favorite travel photos</em>.
+    </p>
+  </header>
+
+  <main>
+
+    <section class="bio">
+      <p>
+        <strong>Welcome to My Travel Gallery!</strong> This website is a visual diary of my favorite travel 
+        destinations: <em>Singapore, China, London, Cape Town, and Japan.</em> Each photograph captures a moment, 
+        a memory, and the essence of a place that has left an impression on me. Explore the gallery and experience 
+        the beauty of these unique locations through my lens.
+      </p>
+    </section>
+
+    <section class="gallery" aria-label="Travel Photo Gallery">
+      <article class="photo-box">
+        <figure>
+          <img src="images/singapore.jpg" alt="Singapore skyline at night with Marina Bay Sands" />
+          <figcaption>
+            <h3>Singapore</h3>
+            <p>
+              I was blown away by Singapore’s futuristic skyline and the nightly light shows at Marina Bay Sands. 
+              Exploring Gardens by the Bay felt like stepping into another world, and the hawker center food was 
+              absolutely unforgettable.
+            </p>
+          </figcaption>
+        </figure>
+      </article>
+
+      <article class="photo-box">
+        <figure>
+          <img src="images/china.jpg" alt="Mountain landscape in China" />
+          <figcaption>
+            <h3>China</h3>
+            <p>
+              Hiking the Great Wall was one of the most surreal experiences of my life. From the ancient architecture 
+              to the quiet beauty of rural villages, China’s depth of culture and history left a lasting impression on me.
+            </p>
+          </figcaption>
+        </figure>
+      </article>
+
+      <article class="photo-box">
+        <figure>
+          <img src="images/london.jpg" alt="London city view with Big Ben and red buses" />
+          <figcaption>
+            <h3>London</h3>
+            <p>
+              London’s charm lies in its rich history and modern vibe. Walking along the Thames, hearing Big Ben chime, 
+              and diving into the British Museum’s treasures made me feel like I was living inside a classic novel.
+            </p>
+          </figcaption>
+        </figure>
+      </article>
+
+      <article class="photo-box">
+        <figure>
+          <img src="images/Cape-Town-SAf.webp" alt="View from Table Mountain in Cape Town" />
+          <figcaption>
+            <h3>Cape Town</h3>
+            <p>
+              Cape Town stole my heart with its breathtaking landscapes. The view from the top of Table Mountain was 
+              absolutely stunning, and the mix of cultures and coastal energy gave the city a rhythm all its own.
+            </p>
+          </figcaption>
+        </figure>
+      </article>
+
+      <article class="photo-box">
+        <figure>
+          <img src="images/japan.jpg" alt="Cherry blossoms in Japan" />
+          <figcaption>
+            <h3>Japan</h3>
+            <p>
+              I visited Japan during cherry blossom season and felt like I was walking through a dream. From Kyoto’s 
+              peaceful temples to Tokyo’s fast-paced streets, Japan was a perfect blend of tradition and innovation.
+            </p>
+          </figcaption>
+        </figure>
+      </article>
+    </section>
+
+    <section class="lists">
+      <article>
+        <h2>Places in My Gallery</h2>
+        <ul>
+          <li>Singapore</li>
+          <li>China</li>
+          <li>London</li>
+          <li>Cape Town</li>
+          <li>Japan</li>
+        </ul>
+      </article>
+
+      <article>
+        <h2>What I Love About These Places</h2>
+        <ol>
+          <li>Culture</li>
+          <li>Architecture</li>
+          <li>Food</li>
+          <li>People</li>
+          <li>Nature</li>
+        </ol>
+      </article>
+    </section>
+    
+    <section class="contact-form">
+        <h2>Contact Me</h2>
+        <form action="https://example.com/submit-form" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+      
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+      
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+      
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Travel Gallery. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
