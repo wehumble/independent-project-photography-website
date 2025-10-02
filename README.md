@@ -28,7 +28,7 @@ Welcome to **My Travel Gallery** – a personal website showcasing travel photos
 
 ##  Deployment
 
-The site is live at: [https://wehumble.github.io/travel-gallery](https://wehumble.github.io/travel-gallery)
+The site is live at:https://wehumble.github.io/independent-project-photography-website/
 
 ##  Credits
 
