@@ -1,4 +1,4 @@
-/* Global Reset & Typography */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -13,7 +13,7 @@ body {
   padding: 20px;
 }
 
-/* Header Styles */
+
 header {
   text-align: center;
   margin-bottom: 40px;
@@ -29,7 +29,7 @@ header p {
   color: #555;
 }
 
-/* Bio Section */
+
 .bio {
   max-width: 800px;
   margin: 0 auto 40px auto;
@@ -37,7 +37,7 @@ header p {
   font-size: 1.1rem;
 }
 
-/* Gallery Layout */
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -59,13 +59,13 @@ header p {
   transform: translateY(-5px);
 }
 
-/* Image Styling */
+
 .photo-box img {
   width: 100%;
   height: auto;
   display: block;
   object-fit: cover;
-  filter: contrast(1.15) brightness(1.05); /* Enhance image clarity */
+  filter: contrast(1.15) brightness(1.05); 
   transition: filter 0.3s ease;
 }
 
@@ -73,7 +73,7 @@ header p {
   filter: contrast(1.25) brightness(1.1);
 }
 
-/* Captions & Descriptions */
+
 figcaption {
   padding: 15px 20px;
 }
@@ -89,7 +89,7 @@ figcaption p {
   color: #555;
 }
 
-/* Lists Section */
+
 .lists {
   max-width: 800px;
   margin: 0 auto 50px auto;
@@ -108,9 +108,8 @@ figcaption p {
 .lists ol {
   padding-left: 20px;
   color: #444;
-}
 
-/* Footer */
+
 footer {
   text-align: center;
   padding: 20px 0;
