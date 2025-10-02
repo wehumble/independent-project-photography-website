@@ -118,3 +118,14 @@ footer {
   color: #888;
   font-size: 0.9rem;
 }
+
+form{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction:row;
+  align-items: center;
+gap:5px;
+margin-top: 0;
+}
+
+}
